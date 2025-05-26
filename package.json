@@ -1,0 +1,32 @@
+{
+  "name": "api-mongodb-nodejs",
+  "version": "1.0.0",
+  "description": "Building an api with express and mongodb to save the datas",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelPiresLuis01/API-MONGODB-NODEJS.git"
+  },
+  "author": "Manuel Pires Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelPiresLuis01/API-MONGODB-NODEJS/issues"
+  },
+  "homepage": "https://github.com/ManuelPiresLuis01/API-MONGODB-NODEJS#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.2"
+  }
+}
