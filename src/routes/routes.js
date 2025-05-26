@@ -5,6 +5,7 @@ const routes = (app) => {
   app.route("/teste")
   .get(Get)
   .post(Post);
+
 }
 
 
